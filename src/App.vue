@@ -21,10 +21,13 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 html, body {
@@ -100,16 +103,16 @@ body::before {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: white;
   margin: 0 0 1rem 0;
   text-align: center;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 .subtitle {
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: rgba(255, 255, 255, 0.7);
   margin: 0 0 2.5rem 0;
   text-align: center;
@@ -166,8 +169,12 @@ h2 {
   }
   
   h2 {
-    font-size: 1.6rem;
+    font-size: 1.375rem;
     margin: 0 0 0.9rem 0;
+  }
+  
+  .subtitle {
+    font-size: 0.875rem;
   }
   
   .subtitle {
@@ -210,13 +217,13 @@ h2 {
   }
   
   h2 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin: 0 0 1rem 0;
-    line-height: 1.2;
+    line-height: 1.4;
   }
   
   .subtitle {
-    font-size: 0.95rem;
+    font-size: 0.875rem;
     margin: 0 0 2.5rem 0;
     line-height: 1.4;
   }
@@ -252,11 +259,11 @@ h2 {
   }
   
   h2 {
-    font-size: 1.4rem;
+    font-size: 1.125rem;
   }
   
   .subtitle {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin: 0 0 2rem 0;
   }
   
