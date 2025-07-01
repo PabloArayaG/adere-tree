@@ -8,7 +8,7 @@
     </a>
     
     <div class="card-container">
-      <h2>Explora nuestras soluciones de IA personalizadas para cada industria</h2>
+      <h1>Explora nuestras soluciones de IA personalizadas para cada industria</h1>
       <p class="subtitle">Descubre cómo nuestros bots de IA pueden transformar tu industria</p>
       
       <div class="buttons-grid">
@@ -102,7 +102,7 @@ body::before {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
-h2 {
+h1 {
   font-size: 1.75rem;
   font-weight: 700;
   color: white;
@@ -168,7 +168,7 @@ h2 {
     margin: 0 1.5rem;
   }
   
-  h2 {
+  h1 {
     font-size: 1.375rem;
     margin: 0 0 0.9rem 0;
   }
@@ -216,7 +216,7 @@ h2 {
     margin: 0 1rem;
   }
   
-  h2 {
+  h1 {
     font-size: 1.4rem;
     margin: 0 0 1rem 0;
     line-height: 1.4;
@@ -258,7 +258,7 @@ h2 {
     margin: 0 0.8rem;
   }
   
-  h2 {
+  h1 {
     font-size: 1.125rem;
   }
   
