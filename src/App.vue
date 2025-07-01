@@ -70,6 +70,8 @@ body::before {
   gap: 2rem;
   position: relative;
   z-index: 5;
+  opacity: 0;
+  animation: fadeIn 0.6s ease-out forwards;
 }
 
 .container > * {
@@ -81,6 +83,8 @@ body::before {
   display: block;
   margin-bottom: 3rem;
   transition: opacity 0.3s ease;
+  opacity: 0;
+  animation: fadeInScale 0.6s ease-out 0.2s forwards;
 }
 
 .logo-link:hover {
@@ -100,6 +104,9 @@ body::before {
   max-width: 600px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transform: translateY(30px);
+  animation: slideInUp 0.8s ease-out 0.4s forwards;
 }
 
 h1 {
@@ -109,6 +116,9 @@ h1 {
   margin: 0 0 1rem 0;
   text-align: center;
   line-height: 1.5;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideInUp 0.8s ease-out 0.6s forwards;
 }
 
 .subtitle {
@@ -117,6 +127,9 @@ h1 {
   margin: 0 0 2.5rem 0;
   text-align: center;
   line-height: 1.4;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideInUp 0.8s ease-out 0.7s forwards;
 }
 
 .buttons-grid {
@@ -138,6 +151,20 @@ h1 {
   text-align: center;
   box-shadow: 0 4px 15px rgba(24, 100, 255, 0.3);
   transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.button:nth-child(1) {
+  animation: buttonSlideIn 0.6s ease-out 0.8s forwards;
+}
+
+.button:nth-child(2) {
+  animation: buttonSlideIn 0.6s ease-out 1s forwards;
+}
+
+.button:nth-child(3) {
+  animation: buttonSlideIn 0.6s ease-out 1.2s forwards;
 }
 
 .button:hover {
@@ -274,6 +301,60 @@ h1 {
   .button {
     padding: 1rem 1.2rem;
     font-size: 0.95rem;
+  }
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes buttonSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 </style>
