@@ -8,8 +8,8 @@
     </a>
     
     <div class="card-container">
-      <h1>Explora nuestras soluciones de IA personalizadas para cada industria</h1>
-      <p class="subtitle">Descubre cómo nuestros bots de IA pueden transformar tu industria</p>
+      <h1>Prueba los Agentes IA que están transformando el CX en tu industria</h1>
+      <p class="subtitle">Chatea con los bots de empresas similares a la tuya y experimenta el potencial de tu CX</p>
       
       <div class="buttons-grid">
         <a href="https://wa.me/+56949403837" target="_blank" class="button">Automotora</a>
@@ -179,7 +179,7 @@ h1 {
   #app {
     align-items: flex-start;
     padding-top: 3rem;
-  }
+}
   
   .logo {
     height: 45px;
