@@ -16,6 +16,7 @@
           <a href="https://api.whatsapp.com/send/?phone=56935055832&text&app_absent=0" target="_blank" class="button">Utilities</a>
           <a href="https://api.whatsapp.com/send?phone=56944154087&text=%C2%A1Hola!%20Necesito%20ayuda%20" target="_blank" class="button">Retail</a>
           <a href="https://genianew.adereso.ai" target="_blank" class="button">Ver GenIA</a>
+          <a href="https://adereso.ai/contacto" target="_blank" class="button">Agendar demo</a>
         </div>
     </div>
   </div>
@@ -172,6 +173,20 @@ h1 {
   animation: buttonSlideIn 0.6s ease-out 1.4s forwards;
 }
 
+.button:nth-child(5) {
+  animation: buttonSlideIn 0.6s ease-out 1.6s forwards;
+  background-color: white;
+  color: #131415;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+.button:nth-child(5):hover {
+  background-color: #f0f0f0;
+  color: #131415;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
+}
+
 .button:hover {
   background-color: #1450D9;
   color: white;
@@ -183,7 +198,7 @@ h1 {
 @media (max-width: 768px) and (min-width: 481px) {
   #app {
     align-items: flex-start;
-    padding-top: 3rem;
+    padding: 3rem 0 3.5rem 0;
 }
   
   .logo {
@@ -214,7 +229,7 @@ h1 {
   }
   
   .buttons-grid {
-    gap: 1.3rem;
+    gap: 1.2rem;
   }
   
   .button {
@@ -231,7 +246,7 @@ h1 {
 @media (max-width: 480px) {
   #app {
     align-items: flex-start;
-    padding: 3rem 0 2rem 0;
+    padding: 3rem 0 3.5rem 0;
   }
   
   .logo {
@@ -256,12 +271,12 @@ h1 {
   
   .subtitle {
     font-size: 0.875rem;
-    margin: 0 0 2.5rem 0;
+    margin: 0 0 2.2rem 0;
     line-height: 1.4;
   }
   
   .buttons-grid {
-    gap: 1.4rem;
+    gap: 1.3rem;
   }
   
   .button {
@@ -277,7 +292,7 @@ h1 {
 
 @media (max-width: 360px) {
   #app {
-    padding: 2.5rem 0 1.5rem 0;
+    padding: 2.5rem 0 3rem 0;
   }
   
   .logo {
@@ -286,7 +301,7 @@ h1 {
   
   .card-container {
     max-width: 320px;
-    padding: 2rem 1.2rem;
+    padding: 2rem 1.2rem 2.5rem 1.2rem;
     margin: 0 0.8rem;
   }
   
@@ -300,7 +315,7 @@ h1 {
   }
   
   .buttons-grid {
-    gap: 1.2rem;
+    gap: 1.1rem;
   }
   
   .button {
