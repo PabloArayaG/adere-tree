@@ -198,7 +198,7 @@ h1 {
 @media (max-width: 768px) and (min-width: 481px) {
   #app {
     align-items: flex-start;
-    padding: 3rem 0 3.5rem 0;
+    padding: 3rem 0 6rem 0;
 }
   
   .logo {
@@ -246,7 +246,7 @@ h1 {
 @media (max-width: 480px) {
   #app {
     align-items: flex-start;
-    padding: 3rem 0 3.5rem 0;
+    padding: 3rem 0 6rem 0;
   }
   
   .logo {
@@ -292,7 +292,7 @@ h1 {
 
 @media (max-width: 360px) {
   #app {
-    padding: 2.5rem 0 3rem 0;
+    padding: 2.5rem 0 5.5rem 0;
   }
   
   .logo {
