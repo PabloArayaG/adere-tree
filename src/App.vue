@@ -12,7 +12,7 @@
       <p class="subtitle">Chatea con los bots de empresas similares a la tuya y experimenta el potencial de tu CX</p>
       
               <div class="buttons-grid">
-          <a href="https://wa.me/+56949403837" target="_blank" class="button">Automotora</a>
+          <a href="https://wa.me/+56941581023" target="_blank" class="button">Automotora</a>
           <a href="https://api.whatsapp.com/send/?phone=56935055832&text&app_absent=0" target="_blank" class="button">Utilities</a>
           <a href="https://api.whatsapp.com/send?phone=56944154087&text=%C2%A1Hola!%20Necesito%20ayuda%20" target="_blank" class="button">Retail</a>
           <a href="https://genianew.adereso.ai" target="_blank" class="button">Ver GenIA</a>
