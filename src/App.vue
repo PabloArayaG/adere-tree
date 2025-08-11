@@ -12,11 +12,11 @@
       <p class="subtitle">Chatea con los bots de empresas similares a la tuya y experimenta el potencial de tu CX</p>
       
               <div class="buttons-grid">
+          <a href="https://adereso.ai/contacto/?utm_source=Producto&utm_medium=Aderetree&utm_campaign=Aderetree" target="_blank" class="button">Agendar demo</a>
           <a href="https://wa.me/+56941581023" target="_blank" class="button">Automotora</a>
           <a href="https://api.whatsapp.com/send/?phone=56935055832&text&app_absent=0" target="_blank" class="button">Utilities</a>
           <a href="https://api.whatsapp.com/send?phone=56944154087&text=%C2%A1Hola!%20Necesito%20ayuda%20" target="_blank" class="button">Retail</a>
           <a href="https://genianew.adereso.ai" target="_blank" class="button">Ver GenIA</a>
-          <a href="https://adereso.ai/contacto" target="_blank" class="button">Agendar demo</a>
         </div>
     </div>
   </div>
@@ -159,6 +159,16 @@ h1 {
 
 .button:nth-child(1) {
   animation: buttonSlideIn 0.6s ease-out 0.8s forwards;
+  background-color: white;
+  color: #131415;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+.button:nth-child(1):hover {
+  background-color: #f0f0f0;
+  color: #131415;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
 }
 
 .button:nth-child(2) {
@@ -175,17 +185,9 @@ h1 {
 
 .button:nth-child(5) {
   animation: buttonSlideIn 0.6s ease-out 1.6s forwards;
-  background-color: white;
-  color: #131415;
-  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
 }
 
-.button:nth-child(5):hover {
-  background-color: #f0f0f0;
-  color: #131415;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
-}
+
 
 .button:hover {
   background-color: #1450D9;
