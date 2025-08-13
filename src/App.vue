@@ -12,7 +12,7 @@
       <p class="subtitle">Chatea con los bots de empresas similares a la tuya y experimenta el potencial de tu CX</p>
       
               <div class="buttons-grid">
-          <a href="https://adereso.ai/contacto/?utm_source=Producto&utm_medium=Aderetree&utm_campaign=Aderetree" target="_blank" class="button">Agendar demo</a>
+          <a href="https://adereso.ai/contacto-wbl" target="_blank" class="button">Agendar reunión</a>
           <a href="https://wa.me/+56941581023" target="_blank" class="button">Automotora</a>
           <a href="https://api.whatsapp.com/send/?phone=56935055832&text&app_absent=0" target="_blank" class="button">Utilities</a>
           <a href="https://api.whatsapp.com/send?phone=56944154087&text=%C2%A1Hola!%20Necesito%20ayuda%20" target="_blank" class="button">Retail</a>
