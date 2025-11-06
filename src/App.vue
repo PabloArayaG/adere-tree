@@ -4,7 +4,7 @@
 <template>
   <div class="container">
     <a href="https://adereso.ai" target="_blank" class="logo-link">
-      <img src="/Adereso_Blanco.png" alt="Adereso" class="logo">
+      <img src="/logoadereso.webp" alt="Adereso" class="logo">
     </a>
     
     <div class="card-container">
@@ -23,13 +23,13 @@
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Work+Sans:wght@400&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 html, body {
@@ -38,22 +38,6 @@ html, body {
   overflow-x: hidden;
   background-color: #131415;
   position: relative;
-}
-
-body::before {
-  content: '';
-  position: fixed;
-  top: -30%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background-image: url('/Degradados-16.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.3;
-  filter: blur(20px);
-  z-index: 1;
 }
 
 #app {
@@ -83,6 +67,7 @@ body::before {
 
 .logo-link {
   display: block;
+  margin-top: 2rem;
   margin-bottom: 3rem;
   transition: opacity 0.3s ease;
   opacity: 0;
@@ -94,15 +79,16 @@ body::before {
 }
 
 .logo {
-  height: 60px;
+  height: 30px;
   width: auto;
 }
 
 .card-container {
   background: rgba(19, 20, 21, 0.8);
   backdrop-filter: blur(20px);
-  border-radius: 24px;
-  padding: 3rem 2.5rem;
+  border-radius: 8px;
+  padding: 3rem 2.5rem 3.5rem 2.5rem;
+  margin-bottom: 80px;
   max-width: 600px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
@@ -112,8 +98,9 @@ body::before {
 }
 
 h1 {
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-size: 1.75rem;
-  font-weight: 700;
+  font-weight: 500;
   color: white;
   margin: 0 0 1rem 0;
   text-align: center;
@@ -144,14 +131,15 @@ h1 {
   display: block;
   width: 100%;
   padding: 1.2rem 2rem;
-  background-color: #1864FF;
-  color: white;
+  background-color: #FFFFFF;
+  color: #1F1F1F;
   text-decoration: none;
-  border-radius: 16px;
+  border-radius: 8px;
+  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
-  box-shadow: 0 4px 15px rgba(24, 100, 255, 0.3);
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease;
   opacity: 0;
   transform: translateY(20px);
@@ -159,16 +147,16 @@ h1 {
 
 .button:nth-child(1) {
   animation: buttonSlideIn 0.6s ease-out 0.8s forwards;
-  background-color: white;
-  color: #131415;
-  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+  background-color: #FFD540;
+  color: #1F1F1F;
+  box-shadow: 0 4px 15px rgba(255, 213, 64, 0.3);
 }
 
 .button:nth-child(1):hover {
-  background-color: #f0f0f0;
-  color: #131415;
+  background-color: #FFE066;
+  color: #1F1F1F;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 6px 20px rgba(255, 213, 64, 0.4);
 }
 
 .button:nth-child(2) {
@@ -190,10 +178,10 @@ h1 {
 
 
 .button:hover {
-  background-color: #1450D9;
-  color: white;
+  background-color: #f0f0f0;
+  color: #1F1F1F;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(24, 100, 255, 0.4);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
 }
 
 /* Responsive */
@@ -204,16 +192,17 @@ h1 {
 }
   
   .logo {
-    height: 45px;
+    height: 22px;
   }
   
   .logo-link {
+    margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }
   
   .card-container {
     max-width: 500px;
-    padding: 2rem 1.8rem;
+    padding: 2rem 1.8rem 2.5rem 1.8rem;
     margin: 0 1.5rem;
   }
   
@@ -252,16 +241,17 @@ h1 {
   }
   
   .logo {
-    height: 45px;
+    height: 22px;
   }
   
   .logo-link {
+    margin-top: 1.5rem;
     margin-bottom: 2rem;
   }
   
   .card-container {
     max-width: 350px;
-    padding: 2.5rem 1.5rem;
+    padding: 2.5rem 1.5rem 3rem 1.5rem;
     margin: 0 1rem;
   }
   
@@ -298,12 +288,16 @@ h1 {
   }
   
   .logo {
-    height: 40px;
+    height: 20px;
+  }
+  
+  .logo-link {
+    margin-top: 1.2rem;
   }
   
   .card-container {
     max-width: 320px;
-    padding: 2rem 1.2rem 2.5rem 1.2rem;
+    padding: 2rem 1.2rem 2.8rem 1.2rem;
     margin: 0 0.8rem;
   }
   
