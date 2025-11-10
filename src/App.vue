@@ -8,14 +8,14 @@
     </a>
     
     <div class="card-container">
-      <h1>Prueba los Agentes IA que están transformando el CX en tu industria</h1>
-      <p class="subtitle">Chatea con los bots de empresas similares a la tuya y experimenta el potencial de tu CX</p>
+      <h1>Prueba nuestros agentes <br>y hablemos de tus desafíos</h1>
+      <p class="subtitle">Chatea con los bots de empresas similares a la tuya<br class="desktop-break"> y experimenta el potencial de tu CX</p>
       
               <div class="buttons-grid">
           <a href="https://adereso.ai/contacto-wbl" target="_blank" class="button">Agendar reunión</a>
-          <a href="https://api.whatsapp.com/send/?phone=56935055832&text&app_absent=0" target="_blank" class="button">Ver Cliente Utilities</a>
-          <a href="https://wa.me/+56941581023" target="_blank" class="button">Ver Cliente Automotora</a>
-          <a href="https://api.whatsapp.com/send?phone=56944154087&text=%C2%A1Hola!%20Necesito%20ayuda%20" target="_blank" class="button">Ver Cliente Retail</a>
+          <a href="https://api.whatsapp.com/send/?phone=56935055832&text&app_absent=0" target="_blank" class="button">Probar agente Utilities</a>
+          <a href="https://wa.me/+56941581023" target="_blank" class="button">Probar agente Automotora</a>
+          <a href="https://api.whatsapp.com/send?phone=56944154087&text=%C2%A1Hola!%20Necesito%20ayuda%20" target="_blank" class="button">Probar agente Retail</a>
           <a href="https://genianew.adereso.ai" target="_blank" class="button">Ver GenIA</a>
         </div>
     </div>
@@ -184,8 +184,23 @@ h1 {
   box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
 }
 
+/* Ocultar saltos de línea en mobile */
+.desktop-break {
+  display: inline;
+}
+
+@media (min-width: 769px) {
+  .desktop-break {
+    display: inline;
+  }
+}
+
 /* Responsive */
 @media (max-width: 768px) and (min-width: 481px) {
+  .desktop-break {
+    display: none;
+  }
+  
   #app {
     align-items: flex-start;
     padding: 3rem 0 6rem 0;
@@ -235,6 +250,10 @@ h1 {
 }
 
 @media (max-width: 480px) {
+  .desktop-break {
+    display: none;
+  }
+  
   #app {
     align-items: flex-start;
     padding: 3rem 0 6rem 0;
@@ -283,6 +302,10 @@ h1 {
 }
 
 @media (max-width: 360px) {
+  .desktop-break {
+    display: none;
+  }
+  
   #app {
     padding: 2.5rem 0 5.5rem 0;
   }
